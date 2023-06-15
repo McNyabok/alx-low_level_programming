@@ -3,7 +3,7 @@
 /**
  * main - program starting point
  * Descrption:prints a specific string
- * Returns: 0 after successful execution of the main function
+ * Returns: 0 - successful execution of the main function
  */
 int main(void)
 
