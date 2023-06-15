@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - program starting poit
- * Descrption: prints the a specific string 
+ * main - program starting point
+ *
+ * Descrption: prints a specific string 
  * * Returns: 0 after successful execution of the main function
  */
 
