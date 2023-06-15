@@ -1,10 +1,12 @@
-#!/bin/bash
 #include <stdio.h>
+
 /**
- * main- prints the string Programming is like building a multilingual puzzle
+ * main - prints the string Programming is like building a multilingual puzzle
  * Returns 0 after successful execution of the main function
  */
+
 int main(void)
+
 {
 	puts("Programming is like building a multilingual puzzle\n");
 
