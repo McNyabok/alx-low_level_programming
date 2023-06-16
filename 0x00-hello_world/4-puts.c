@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - program starting point
- * Descrption:prints a specific string
- * Returns: 0 (Success) - successful completion of the program
+ * main - Entry point
+ *
+ * Description:prints "Programming is like building a multilingual puzzle,
+ * followed by a new line.
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 
 {
+        printf("\"Programming is like building a multilingual puzzle,");
 
-/* Print the required string */
-
-puts("\"Programming is like building a multilingual puzzle");
-
-return (0);
-
+        return (0);
 }
