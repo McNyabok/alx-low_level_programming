@@ -4,8 +4,10 @@
 
 /**
  * main - Entry point of the program
- * Description:assigns a random number to the variable 'n' each time it is executed
- * prints whether the number stored in the variable 'n' is positive or negative.
+ * Description:assigns a random number to the variable 'n'
+ * each time it is executed
+ * prints whether the number stored in the variable 'n'
+ * is positive or negative.
  *
  * Return: 0 Always (SUCCESS)
  */
@@ -25,7 +27,7 @@ int main(void)
 	{
 	printf("%d is zero\n", n);
 	}
-	else 
+	else
 	{
 	printf("%d is negative\n", n);
 	}
