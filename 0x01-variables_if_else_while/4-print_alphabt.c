@@ -9,14 +9,13 @@
 
 int main(void)
 {
-        char alph_lower;
-
-        for (alph_lower = 'a' ; alph_lower <= 'z' ; alph_lower++)
+	char alph_lower;
 	
+	for (alph_lower = 'a' ; alph_lower <= 'z' ; alph_lower++)
 	if (alph_lower != 'q' && alph_lower != 'e')
 	
-        putchar(alph_lower);
-        putchar('\n');
-        
+	putchar(alph_lower);
+	putchar('\n');
+	
 	return (0);
 }
