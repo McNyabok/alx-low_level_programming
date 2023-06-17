@@ -13,7 +13,8 @@
 
 int main(void)
 {
-        int n, lst_dgt;
+        int n;
+	int lst_dgt;
 
         srand(time(0));
         n = rand() - RAND_MAX / 2;
