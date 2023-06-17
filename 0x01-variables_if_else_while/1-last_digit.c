@@ -13,11 +13,11 @@
 
 int main(void)
 {
-        int n;
+	int n;
 	int lst_dgt;
 
         srand(time(0));
-        n = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 	lst_dgt = n % 10;
 
         if (lst_dgt > 5)
