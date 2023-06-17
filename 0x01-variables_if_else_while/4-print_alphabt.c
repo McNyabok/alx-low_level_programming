@@ -14,6 +14,6 @@ int main(void)
 	for (alph_lower = 'a' ; alph_lower <= 'z' ; alph_lower++)
 	if (alph_lower != 'q' && alph_lower != 'e')
 	putchar(alph_lower);
-	putchar('\n'),
+	putchar('\n');
 	return (0);
 }
