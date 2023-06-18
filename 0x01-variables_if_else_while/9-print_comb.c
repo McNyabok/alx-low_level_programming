@@ -4,7 +4,7 @@
  * main - Entry point of the program
  * Description:prints all possiblle combinations of
  * single-digit numbers using 'putchar' function
- * separated by ',' and ' '
+ * separated by a comma and space
  * Return: 0 (Success)
  */
 
