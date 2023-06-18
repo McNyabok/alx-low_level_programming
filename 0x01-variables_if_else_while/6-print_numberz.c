@@ -11,8 +11,9 @@
 int main(void)
 {
 	int single_base10_dgtNums;
+
 	for (single_base10_dgtNums = '0';
-        single_base10_dgtNums <= '9'; single_base10_dgtNums++)
+	single_base10_dgtNums <= '9'; single_base10_dgtNums++)
 	putchar(single_base10_dgtNums);
 	putchar('\n');
 	return (0);
