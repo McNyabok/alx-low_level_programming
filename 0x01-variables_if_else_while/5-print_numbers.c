@@ -14,7 +14,7 @@ int main(void)
 
 	for (single_base10_dgtNums = '0';
 	single_base10_dgtNums <= '9'; single_base10_dgtNums++)
-	printf("%d", single_base10_dgtNums);
+	printf("%c", single_base10_dgtNums);
 	printf("\n");
 	return (0);
 }
