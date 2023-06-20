@@ -3,7 +3,7 @@
 /**
  * print_alphabets - prints the alphabet, in lowercase, followed by a new line
  *
- * Description: This function prints the English alphabet in lowercase, from 'a' to 'z',
+ * Description: This fx prints the English alphabet in lowercase,
  * to the standard output stream.
  *
  * Return: void
