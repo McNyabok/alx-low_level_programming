@@ -6,7 +6,7 @@
  * Return: void
  */
 
-void print_alphabet(void)i
+void print_alphabet(void)
 {
 	char alphs;
 
