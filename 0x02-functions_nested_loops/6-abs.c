@@ -6,7 +6,7 @@
  * Return: Absolute value or zero
  */
 
-int _abs(int)
+int _abs(int d)
 
 {
 	int d;
@@ -17,5 +17,5 @@ int _abs(int)
 		abs = d * -1;
 		return (abs);
 	}
-	return (int);
+	return (d);
 }
