@@ -1,10 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabets - prints the alphabet, in lowercase, followed by a new line
- *
- * Description: This fx prints the English alphabet in lowercase,
- * to the standard output stream.
+ * print_alphabet - prints the alphabet, in lowercase, followed by a new line.
  *
  * Return: void
  */
