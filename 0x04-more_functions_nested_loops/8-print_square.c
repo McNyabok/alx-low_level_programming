@@ -2,20 +2,20 @@
 
 /**
  * print_square - prints a square, followed by a new line;
- * @s: size of the square
+ * @size: size of the square
  */
-void print_square(int s)
+void print_square(int size)
 {
-	if (s <= 0)
+	if (size <= 0)
 	{
 		_putchar('\n');
 	} else
 	{
-		int i, j;
+		int x, y;
 
-		for (i = 0; i < size; i++)
+		for (x = 0; x < size; x++)
 		{
-			for (j = 0; j < size; j++)
+			for (y = 0; y < size; y++)
 			{
 				_putchar('#');
 			}
