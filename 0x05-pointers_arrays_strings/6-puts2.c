@@ -11,7 +11,7 @@
 void puts2(char *str)
 {
 	int a;
-	int b;
+	//int b;
 
 	int b = 0;
 
