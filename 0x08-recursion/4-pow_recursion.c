@@ -5,8 +5,7 @@
  * @x: the base
  * @y: the power/index
  *
- * return: an integer
- * return: x to power y
+ * Return: an integer
  */
 
 int _pow_recursion(int x, int y)
