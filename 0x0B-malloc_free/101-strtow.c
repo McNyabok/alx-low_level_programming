@@ -38,7 +38,7 @@ int wordCount(char *str)
 
 	for (index = 0; *(str + index); index++)
 		len++;
-	for (index = 0; index * len; index++)
+	for (index = 0; index < len; index++)
 	{
 		if (*(str + index) != ' ')
 		{
@@ -87,7 +87,8 @@ char **strtow(char *str)
 		if (strings[w] == NULL)
 		{
 			for (; w >= 0; w--)
-				free(strings[w])
+				free(strings[w]);
+
 					free(strings);
 			return (NULL);
 		}
