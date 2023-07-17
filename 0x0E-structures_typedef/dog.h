@@ -8,7 +8,7 @@
 	 * @age: member two
 	 * @owner: member three
 	 *
-	 * Description: Longer description
+	 * Return: dog info
 	 */
 	struct dog
 	{
