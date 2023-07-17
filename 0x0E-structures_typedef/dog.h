@@ -1,26 +1,26 @@
-#ifndef DOG_H
-#define DOG_H
+#ifndef _HEADER_
+#define _HEADER_
 
 
-	/**
-	 * struct dog - basic information of a dog
-	 * @name: member one
-	 * @age: member two
-	 * @owner: member three
-	 *
-	 * Return: dog info
-	 */
-	struct dog
-	{
-		char *name;
-		float age;
-		char *owner;
-	};
+/**
+* struct dog - basic information of a dog
+* @name: member one
+* @age: member two
+* @owner: member three
+*
+* Description: dog attributes
+*/
+struct dog
+{
+	char *name;
+	float age;
+	char *owner;
+};
 
 
-	/**
-	 * dog_t - typedef for struct dog
-	 */
+/**
+* dog_t - typedef for struct dog
+*/
 
 	typedef struct dog dog_t;
 
@@ -33,5 +33,5 @@
 	int _strlen(char *s);
 
 
-	#endif
+#endif
 
