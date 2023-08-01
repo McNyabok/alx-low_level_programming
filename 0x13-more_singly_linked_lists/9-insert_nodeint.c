@@ -2,7 +2,6 @@
 
 /**
  * insert_nodeint_at_index - inserts a new node at a given position
- * 
  * @head: pointer to 1st node
  * @idx: index at which to insert the new node
  * @n: data to add to the new node
